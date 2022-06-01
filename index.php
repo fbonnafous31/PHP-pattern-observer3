@@ -3,8 +3,7 @@
     use App\Newspaper;
     use App\Reader;
 
-    require_once ('src/Newspaper.php'); 
-    require_once ('src/Reader.php'); 
+    require_once ('libraries/autoload.php');
 
     $newspaper = new Newspaper('Newyork Times');
 
